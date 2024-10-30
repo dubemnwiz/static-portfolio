@@ -1,0 +1,23 @@
+* {
+    margin: 25px;
+    background-color: #e7d8f2;
+}
+
+.nav {
+    display: inline;
+
+}
+
+div {
+    margin-left: 870px;
+    width: 700px;
+}
+
+p {
+    display: inline;
+    margin: 10px;
+}
+
+h2, h3 {
+    text-align: center;
+}
