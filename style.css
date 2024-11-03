@@ -88,7 +88,7 @@ body {
     width: 70%;
     align-self: center;
     gap: 50px;
-    padding-top: 75px;
+    padding: 75px 0px;
 }
 
 .about h1 {
@@ -110,4 +110,57 @@ body {
 .about-image {
     border-radius: 15px;
 }
+
+.experience {
+    display: flex;
+    width: 70%;
+    align-self: center;
+    gap: 50px;
+    padding: 75px 0;
+}
+
+.mastercard-img {
+    flex-basis: 0;
+    align-self: center;
+}
+
+.exp-container {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.exp-container h1 {
+    border-bottom: 1.5px groove #9e79b8;
+    width: fit-content;
+}
+
+.work {
+    padding: 8px;
+}
+
+.company {
+    display: flex;
+    gap: 10px;
+
+}
+
+.role-sum {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    flex: 1;
+}
+
+.role-title {
+    font-weight: 800;
+    font-size: 24px;
+}
+.role-des {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+    
 
