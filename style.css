@@ -15,13 +15,16 @@ body {
 
 /* Navbar styling */
 .navbar {
+    top: 0;
     margin: 15px 60px;
-    background-color: #e7d8f2;
+    background-color: #e7d8f2 ;
     color: #555;
     display: flex;
     width: 80%;
     align-items: center;
     padding: 10px 20px;
+    position: sticky;
+    z-index: 1000;
 
 }
 
@@ -32,6 +35,8 @@ body {
     font-weight: bold;
     margin-right: auto;
     margin-left: 0;
+    position: sticky;
+    z-index: 1000;
 }
 
 .navbar-links {
@@ -40,6 +45,8 @@ body {
     list-style: none;
     display: flex;
     gap: 0px;
+    position: sticky;
+    z-index: 1000;
 }
 
 .navbar-links li a {
